@@ -1,0 +1,69 @@
+ <style> 
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+ body{
+    font-family:'Quicksand', sans-serif;
+            text-align: left;
+            font-size: 16px;
+            background-image: linear-gradient(rgb(149, 228, 208), pink, rgb(90, 90, 151));
+ }
+  form{
+            font-family:'Quicksand', sans-serif;
+            text-align: left;
+            font-size: 16px;
+            
+ line-height: 2;
+            
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px white;
+    
+        }
+        h1{
+            font-family:'Quicksand', sans-serif;
+            text-align: center;
+            background-color: whitesmoke, transparent 20%;    
+        }
+
+        .campo input[type="text"], .campo input[type="email"], .campo input[type="date"], .campo input[type="number"], .campo input[type="password"], .campo select, .campo textarea{
+            font-family: 'Quicksand', sans-serif;
+            font-weight: normal;
+            font-size: 13pt;
+            border-width: 2px;
+            border-radius: 10px;
+            cursor: text;
+        }
+        input:hover, textarea {
+            background-color: rgb(255, 211, 154);
+        }
+        img {
+  min-width: 320px;
+  max-width: 600px;
+  align-items: center;
+}
+
+button {
+	
+	background-image: linear-gradient(rgb(86, 153, 161), purple);
+    display: block;
+     font-family: "Trebuchet MS";
+     font-size: 14px;
+     font-weight: bold;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0 rgb(97, 97, 97);
+     padding: 5px 15px;
+     width: 250px;
+     border-radius: 80px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+
+</style>
+© 2021 GitHub, Inc.
